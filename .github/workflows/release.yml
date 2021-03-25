@@ -51,9 +51,20 @@ jobs:
         with:
           ref: ${{ github.event.release.tag_name }}
 
-      # Update Unreleased section with the current version
-      - name: Patch Changelog
-        run: ./gradlew patchChangelog
+      # Update the CHANGELOG.md file
+      - name: Changelog CI
+        uses: saadmk11/changelog-ci@v0.7.0
+        with:
+          # Optional, you can provide any name for your changelog file,
+          # defaults to ``CHANGELOG.md`` if not provided.
+          changelog_filename: CHANGELOG.md
+          # only required if customizing the configuration
+          config_file: changelog.json
+        env:
+          # only required if the 'changelog.json' config file either
+          # * has enabled the "comment_changelog" option
+          # * is hosted in a private repo
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       # Commit patched Changelog
       - name: Commit files

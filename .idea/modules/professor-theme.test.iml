@@ -298,5 +298,4 @@
     </orderEntry>
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:19.0.0" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="professor-theme.main" />
 </module>

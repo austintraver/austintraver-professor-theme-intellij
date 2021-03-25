@@ -1,8 +1,10 @@
 # Professor Theme
 
+
 ![Build](https://github.com/austintraver/professor-theme/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/16230.svg)](https://plugins.jetbrains.com/plugin/16230)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/16230.svg)](https://plugins.jetbrains.com/plugin/16230)
+![Changelog CI Status](https://github.com/austintraver/professor-theme/.github/workflows/Changelog%20CI/badge.svg)
 
 <!-- Plugin description -->
 Professor color theme for IntelliJ-based IDEs
