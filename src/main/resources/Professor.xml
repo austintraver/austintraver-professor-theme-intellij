@@ -539,6 +539,7 @@
         <option name="FOREGROUND" value="ffdd99" />
       </value>
     </option>
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE">
@@ -24894,6 +24895,11 @@
     <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="PY.DECORATOR">
+      <value>
+        <option name="FOREGROUND" value="ffdd99" />
+      </value>
+    </option>
     <option name="REGEXP.BRACES" baseAttributes="DEFAULT_BRACES" />
     <option name="REGEXP.BRACKETS" baseAttributes="DEFAULT_BRACKETS" />
     <option name="REGEXP.CHAR_CLASS" baseAttributes="DEFAULT_ENTITY" />
@@ -24949,9 +24955,9 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="171c26" />
         <option name="BACKGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="3" />
+        <option name="FOREGROUND" value="ffdd99" />
       </value>
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
@@ -25063,6 +25069,5 @@
         <option name="FOREGROUND" value="ff7f95" />
       </value>
     </option>
-    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
   </attributes>
 </scheme>

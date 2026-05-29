@@ -53,13 +53,13 @@ jobs:
 
       # Update the CHANGELOG.md file
       - name: Changelog CI
-        uses: saadmk11/changelog-ci@v0.7.0
+        uses: saadmk11/changelog-ci@v0.7.5
         with:
           # Optional, you can provide any name for your changelog file,
-          # defaults to ``CHANGELOG.md`` if not provided.
+          # defaults to `CHANGELOG.md` if not provided.
           changelog_filename: CHANGELOG.md
           # only required if customizing the configuration
-          config_file: changelog.json
+          config_file: changelog.yaml
         env:
           # only required if the 'changelog.json' config file either
           # * has enabled the "comment_changelog" option

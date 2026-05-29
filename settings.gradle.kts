@@ -1,1 +1,1 @@
-rootProject.name = "professor-theme"
+rootProject.name = "professor-theme-intellij"

@@ -1,30 +1,33 @@
 # Professor Theme
 
-
-![Build](https://github.com/austintraver/professor-theme/workflows/Build/badge.svg)
+![Build](https://github.com/austintraver/professor-theme-intellij/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/16230.svg)](https://plugins.jetbrains.com/plugin/16230)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/16230.svg)](https://plugins.jetbrains.com/plugin/16230)
-![Changelog CI Status](https://github.com/austintraver/professor-theme/.github/workflows/Changelog%20CI/badge.svg)
+![Changelog CI Status](https://github.com/austintraver/professor-theme-intellij/.github/workflows/Changelog%20CI/badge.svg)
 
 <!-- Plugin description -->
 Professor color theme for IntelliJ-based IDEs
 <!-- Plugin description end -->
 
-## Installation
+## Getting started
 
-- Using IDE built-in plugin system:
+### Installation from within your IDE
 
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> >
-  <kbd>Marketplace</kbd> > <kbd>Search for "professor-theme"</kbd> >
-  <kbd>Install Plugin</kbd>
+Using IDE built-in plugin system:
 
-- Manually:
+### Building from source
 
-  Download the
-  [latest release](https://github.com/austintraver/professor-theme/releases/latest)
-  and install it manually using <kbd>Settings/Preferences</kbd> >
-  <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from
-  disk...</kbd>
+Download the [latest release] from GitHub, or install it manually via: 
 
+* `Settings/Preferences` > `Plugins` > `Marketplace`
+* Search for `professor-theme-intellij`
+* Lastly, click `Install Plugin`
+
+### Installation from disk
+
+`Settings/Preferences` > `Plugins` > `⚙️` > `Install plugin from disk...`
+
+
+[latest release]: https://github.com/austintraver/professor-theme-intellij/releases/latest
 
 ---
